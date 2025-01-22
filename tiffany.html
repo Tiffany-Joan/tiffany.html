@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <head> JOB APPLICATION FORM</head>
+    <body>
+        
+        <form action="/submit-job-application" method="POST">
+            <label for="fullname">Your name</label>
+            <input type="text" id="fullname" name="fullname">
+            <br>
+            <label for="personal-email"> Email</label>
+            <input type="email" name="personal-email" id="personal-email">
+            <br>
+            <Label for="password">Your password</Label>
+            <input type="text">
+            <br>
+            <label for="telepone input">Your telephone number</label>
+            <input type="tel">
+            <br>
+            <label for="date input">Date</label>
+            <input type="date">
+            <br>
+              
+                
+                    <p>Select desired position</p>
+                    <select name="desired position" id="desired position"> <br>
+                        <option value="Software developer">Software developer</option>
+                        <option value="Designer">Designer</option>
+                        <option value="Project manager">Project manager</option>
+                    </select>
+
+
+             <p>Options for the applicant's availability</p> 
+            <label for="full-time">Full-time</label>
+            <input type="radio" name="0" id="works full-time" value="full-time">
+            <br>
+            <label for="part-time">Part-time</label>
+            <input type="radio" name="0" id="works part-time" value="part-time">
+            <br>
+
+            <p>Skills checkboxes</p>
+            <input type="checkbox" name="HTML"> HTML <br>
+            <input type="checkbox" name="CSS"> CSS  <br>
+            <input type="checkbox" name="JavaScript"> JavaScript <br>
+            <input type="checkbox" name="Python"> Python <br>
+
+            <p>A file upload for submitting a resume</p>
+            <input type="file">
+    
+            <textarea>Enter additional comments or a cover letter.</textarea>
+
+            <P>To send</P>
+            <button type="submit">Send </button> <br>
+
+            <p>To clear form</p>
+            <button type="reset">Clear form </button> <br>
+        
+    </body>
+</html
